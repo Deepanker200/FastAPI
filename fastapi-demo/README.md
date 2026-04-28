@@ -82,3 +82,13 @@ curl -X POST "http://localhost:8000/products/" \
 - [FastAPI](https://fastapi.tiangolo.com/) - Modern, fast web framework for building APIs
 - [Pydantic](https://pydantic-docs.helpmanual.io/) - Data validation using Python type hints
 - [Uvicorn](https://www.uvicorn.org/) - ASGI server implementation
+
+
+# Fast API Installation
+
+- python -m venv venv
+- venv\Scripts\activate
+- pip install uvicorn fastapi
+- uvicorn main:app --reload
+- pip install sqlalchemy
+- pip install psycopg2
